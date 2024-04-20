@@ -1,4 +1,4 @@
-        // 1-MASALA
+// 1-MASALA
 // let n = 5;
 
 // function getInitialOdds(n) {
@@ -13,7 +13,7 @@
 // console.log(getInitialOdds(n));
 
 
-        // 2-MASALA
+// 2-MASALA
 // let arr = [1, 2, 3, 4, 5];
 
 // function getEvenReverse(arr) {
@@ -31,7 +31,7 @@
 
 
 
-        // 3-MASALA
+// 3-MASALA
 // let arr = [4, 5, 7, 8, 6, 9];
 // let res = '';
 
@@ -49,7 +49,7 @@
 // console.log(res);
 
 
-        // 4-MASALA
+// 4-MASALA
 // let arr = [1, 6, 9, 5, 8, 10, 15];
 
 // function rangeSum(arr, k, l) {
@@ -64,7 +64,7 @@
 // console.log(rangeSum(arr, 2, 5));
 
 
-        // 5-MASALA
+// 5-MASALA
 // let arr =  [7, 4, 2, 3, 1, 4, 5, 2, 4, 5, 7];
 
 // function getSingleArr(arr) {
@@ -81,7 +81,7 @@
 // console.log(getSingleArr(arr));
 
 
-        // 6-MASALA
+// 6-MASALA
 // let arr = [1, 2, 13, 4, 5, -4];
 // let big = arr[0];
 // let small = arr[0];
@@ -103,3 +103,19 @@
 // console.log(arr);
 
 
+// 7-MASALA
+let arr = [1, 5, 8, 9, 10];
+//  [10, 1, 5, 8, 9]
+
+let newArr = [0];
+
+for (let i = 0; i <= arr.length; i++) {
+    if (i == arr.length - 1) {
+        newArr[0] = arr[arr.length - 1]
+    } else {
+        newArr[i + 1] = arr[i];
+    }
+
+}
+
+console.log(newArr);
