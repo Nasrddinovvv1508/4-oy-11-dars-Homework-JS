@@ -79,3 +79,27 @@
 // }
 
 // console.log(getSingleArr(arr));
+
+
+        // 6-MASALA
+// let arr = [1, 2, 13, 4, 5, -4];
+// let big = arr[0];
+// let small = arr[0];
+
+// for (let i = 0; i <= arr.length; i++) {
+//     if (arr[i] > big) {
+//         big = arr[i]
+//     } else if (arr[i] < small) {
+//         small = arr[i]
+//     }
+// }
+
+// let bigIndex = arr.indexOf(big);
+// let smallIndex = arr.indexOf(small);
+
+// arr[bigIndex] = small;
+// arr[smallIndex] = big;
+
+// console.log(arr);
+
+
