@@ -28,3 +28,22 @@
 // }
 
 // console.log(getEvenReverse(arr));
+
+
+
+        // 3-MASALA
+// let arr = [4, 5, 7, 8, 6, 9];
+// let res = '';
+
+// for (let i = 0; i <= arr.length; i++) {
+//     if (i == 0) {
+//         res += ` ${arr[i]}`;
+//     } else if(i == arr.length) {
+//         res += ` ${arr[arr.length - i]}`;
+//     }
+//      else {
+//         res += ` ${arr[arr.length - i]} ${arr[i]}`;   
+//     }
+// }
+
+// console.log(res);
