@@ -64,3 +64,18 @@
 // console.log(rangeSum(arr, 2, 5));
 
 
+        // 5-MASALA
+// let arr =  [7, 4, 2, 3, 1, 4, 5, 2, 4, 5, 7];
+
+// function getSingleArr(arr) {
+//     let newArr = []
+//     for (let i = 0; i < arr.length; i++) {
+//         if (!newArr.includes(arr[i])) {
+//             newArr.push(arr[i]);
+//         } 
+//     }
+
+//     return newArr
+// }
+
+// console.log(getSingleArr(arr));
