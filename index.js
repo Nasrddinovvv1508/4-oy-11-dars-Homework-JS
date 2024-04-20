@@ -47,3 +47,20 @@
 // }
 
 // console.log(res);
+
+
+        // 4-MASALA
+// let arr = [1, 6, 9, 5, 8, 10, 15];
+
+// function rangeSum(arr, k, l) {
+//     let sum = 0
+//     for (let i = k; i <= l; i++) {
+//         sum += arr[i]
+//     }
+
+//     return sum;
+// }
+
+// console.log(rangeSum(arr, 2, 5));
+
+
