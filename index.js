@@ -425,3 +425,24 @@
 
 // console.log(truthy);
 // console.log(falsy);
+
+
+
+// UY ISHI - 13-masala
+// let n = 6;
+// let arr = [1, 2, 3, -8, 5, 6];
+
+// function getOddMin(arr) {
+//         let min = arr[0];
+//         for (let i = 0; i < arr.length; i++) {
+//                 if (arr[i] % 2 == 0) {
+//                         if (arr[i] < min) {
+//                                 min = arr[i]
+//                         }
+//                 }
+//         }
+
+//         return min;
+// }
+
+// console.log(getOddMin(arr));
