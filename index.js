@@ -230,3 +230,34 @@
 // } else {
 //         console.log(`Error`);
 // }
+
+
+
+// UY ISHI - 6-masala
+// let n = 6;
+// let array = []
+
+// if (!isNaN(n)) {
+//         for (let i = 1; i <= n; i++) {
+//                 array.push(i);
+//                 // [1, 2, 3, 4, 5, 6]
+//         }
+// } else {
+//         console.log(`Error`);
+// }
+
+// console.log(array);
+
+// let res = ``
+// if (array.length) {
+//         for (let j = 0; j < array.length; j+=2) {
+//                 res += ` ${array[j]}`;
+//         }
+// } else {
+//         console.log(`error`);
+// }
+
+// console.log(res);
+
+
+
