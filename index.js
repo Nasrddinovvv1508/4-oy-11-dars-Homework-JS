@@ -130,7 +130,7 @@
 //         for (let i = 1; i <= n; i++) {
 //             arr.push(Math.pow(2, i))
 //         }
-    
+
 //         return arr;
 //     } else {
 //         return false;
@@ -146,18 +146,44 @@
 // let b = 3;
 
 // function predecessorsSum(n, A, B) {
-//      let arr = [A, B]
-//      let sum = 0
-//      for (let i = 1; i < n-1; i++) {
-//         sum = 0
-//         for (let j = 0; j < arr.length; j++) {
-//              sum += arr[j];
+//         if (!isNaN(n) && !isNaN(A) && !isNaN(B)) {
+//                 let arr = [A, B]
+//                 let sum = 0
+//                 for (let i = 1; i < n - 1; i++) {
+//                         sum = 0
+//                         for (let j = 0; j < arr.length; j++) {
+//                                 sum += arr[j];
+//                         }
+
+//                         arr.push(sum)
+//                 }
+
+//                 return arr;
+//         } else {
+//                 return `Error`;
 //         }
-
-//         arr.push(sum)
-//      }
-
-//      console.log(arr);
 // }
 
-// predecessorsSum(n, a, b)
+// console.log(predecessorsSum(n, a, b));
+
+
+// UY ISHI - 3-masala
+// let n = 5;
+// let arr = []
+
+// for (let i = 1; i <= n; i++) {
+//         arr.push(i)
+// }
+
+// function reverseArr(arr) {
+// //       /*1*/ arr.reverse();
+// //       return arr;
+
+// //      /*2*/ let newArr = []
+//         // for (let i = arr.length - 1; i >= 0; i--) {
+//         //         newArr.push(arr[i]);
+//         // }
+//         // return newArr
+// }
+
+// console.log(reverseArr(arr));
