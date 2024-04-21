@@ -261,3 +261,26 @@
 
 
 
+// UY ISHI - 7-masala
+let n = 6;
+let array = [];
+
+if (!isNaN(n)) {
+        for (let i = 1; i <= n; i++) {
+                array.push(i)
+                // [ 1, 2, 3, 4, 5, 6 ]
+        }
+} else {
+        console.log(`error`);
+}
+
+let res = ``
+if (array.length) {
+        for (let i = 1; i < array.length; i += 2) {
+                res += ` ${array[n - i]}`;
+        }
+
+        console.log(res.trim());
+} else {
+        console.log(`Error`);
+}
