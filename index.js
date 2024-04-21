@@ -435,7 +435,7 @@
 // function getOddMin(arr) {
 //         let min = arr[0];
 //         for (let i = 0; i < arr.length; i++) {
-//                 if (arr[i] % 2 == 0) {
+//                 if (i % 2 == 0) {
 //                         if (arr[i] < min) {
 //                                 min = arr[i]
 //                         }
@@ -446,3 +446,24 @@
 // }
 
 // console.log(getOddMin(arr));
+
+
+
+// UY ISHI - 14-masala 
+// let n = 6;
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// function getEvenMax(arr) {
+//         let max = arr[0];
+//         for (let i = 0; i < arr.length; i++) {
+//                 if (i % 2 == 1) {
+//                         if (arr[i] > max) {
+//                                 max = arr[i];
+//                         }
+//                 }
+//         }
+
+//         return max;
+// }
+
+// console.log(getEvenMax(arr));
