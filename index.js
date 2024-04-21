@@ -481,3 +481,22 @@
 // }
 
 // console.log(lMax);
+
+
+
+// UY ISHI - 16-masala 
+// let arr = [1, 2, 3, 7, 5, 6];
+// let R = 4;
+// let near = arr[0];
+// let minDifference = Math.abs(arr[0] - R);
+
+// for (let i = 0; i < arr.length; i++) {
+//         let difference = Math.abs(arr[i] - R)
+
+//         if (difference < minDifference) {
+//                 near = arr[i];
+//                 minDifference = difference;
+//         }
+// }
+
+// console.log(near);
