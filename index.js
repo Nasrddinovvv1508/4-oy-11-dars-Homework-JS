@@ -307,7 +307,7 @@
 //         for (let i = 0; i < array.length; i+=2) {
 //                 even += ` ${array[i]}`;
 //         }
-        
+
 //         for (let i = 1; i < array.length; i+=2) {
 //                 odd += ` ${array[i]}`;
 //         }
@@ -316,3 +316,26 @@
 // }
 
 // console.log(even, odd);
+
+
+
+// UY ISHI - 9-masala
+// let n = 6;
+// let array = [1, 2, 3, 4, 5, 6];
+// let odd = ``;
+// let even = ``;
+
+// if (Array.isArray(array) && array.length) {
+//         for (let i = 1; i < array.length; i += 2) {
+//                 odd += ` ${array[i]},`;
+//         }
+
+//         for (let i = 0; i < array.length; i += 2) {
+//                 even += ` ${array[i]},`;
+//         }
+
+//         console.log(odd.trim());
+//         console.log(even.trim().split(' ').reverse().join(' '));
+// } else {
+//         console.log(`error`);
+// }
