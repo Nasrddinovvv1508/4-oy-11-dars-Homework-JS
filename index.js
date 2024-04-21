@@ -407,3 +407,21 @@
 // }
 
 // console.log(rangeOutSum(arr, 2, 4));
+
+
+
+// UY ISHI - 12-masala
+// let arr = [10, false, ``, `Abdulaziz`, null];
+// let truthy = []
+// let falsy = []
+
+// for (let i = 0; i < arr.length; i++) {
+//         if (arr[i]) {
+//                 truthy.push(arr[i])
+//         } else {
+//                 falsy.push(arr[i])
+//         }
+// }
+
+// console.log(truthy);
+// console.log(falsy);
