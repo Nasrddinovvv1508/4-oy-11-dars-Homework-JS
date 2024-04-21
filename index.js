@@ -339,3 +339,55 @@
 // } else {
 //         console.log(`error`);
 // }
+
+
+
+// UY ISHI - 10-masala
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let n = arr.length
+// let newArr = []
+
+// let start = 0
+// let end = n - 1;
+
+// while (start <= end) {
+//         if (start == end) {
+//                 newArr.push(arr[start]);
+//         } else {
+//                 newArr.push(arr[start]);
+//                 newArr.push(arr[end]);
+//         }
+
+//         start += 1;
+//         end -= 1;
+// }
+
+// console.log(newArr);
+
+
+// function rearrangeArray(arr) {
+//         const n = arr.length; 
+//         const result = []; 
+    
+//         let left = 0;
+//         let right = n - 1; 
+    
+//         while (left <= right) {
+//             result.push(arr[left]);
+//             left += 1;
+    
+//             if (left <= right) {
+//                 result.push(arr[right]);
+//                 right -= 1;
+//             }
+//         }
+    
+//         return result;
+//     }
+    
+//     const arr = [1, 2, 3, 4, 5, 6, 7];
+    
+//     const rearranged = rearrangeArray(arr);
+    
+//     console.log(rearranged);
+    
