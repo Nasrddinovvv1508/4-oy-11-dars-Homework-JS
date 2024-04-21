@@ -262,25 +262,57 @@
 
 
 // UY ISHI - 7-masala
-let n = 6;
-let array = [];
+// let n = 6;
+// let array = [];
 
-if (!isNaN(n)) {
-        for (let i = 1; i <= n; i++) {
-                array.push(i)
-                // [ 1, 2, 3, 4, 5, 6 ]
-        }
-} else {
-        console.log(`error`);
-}
+// if (!isNaN(n)) {
+//         for (let i = 1; i <= n; i++) {
+//                 array.push(i)
+//                 // [ 1, 2, 3, 4, 5, 6 ]
+//         }
+// } else {
+//         console.log(`error`);
+// }
 
-let res = ``
-if (array.length) {
-        for (let i = 1; i < array.length; i += 2) {
-                res += ` ${array[n - i]}`;
-        }
+// let res = ``
+// if (array.length) {
+//         for (let i = 1; i < array.length; i += 2) {
+//                 res += ` ${array[n - i]}`;
+//         }
 
-        console.log(res.trim());
-} else {
-        console.log(`Error`);
-}
+//         console.log(res.trim());
+// } else {
+//         console.log(`Error`);
+// }
+
+
+
+// UY ISHI - 8-masala
+// let n = 6
+// let array = [];
+
+// if (!isNaN(n)) {
+//         for (let i = 1; i <= n; i++) {
+//                 array.push(i)
+//                 // [1, 2, 3, 4, 5, 6]
+//         }
+// } else {
+//         console.log(`error`);
+// }
+
+// let odd = ``;
+// let even = ``;
+
+// if (array.length) {
+//         for (let i = 0; i < array.length; i+=2) {
+//                 even += ` ${array[i]}`;
+//         }
+        
+//         for (let i = 1; i < array.length; i+=2) {
+//                 odd += ` ${array[i]}`;
+//         }
+// } else {
+//         console.log(`error`);
+// }
+
+// console.log(even, odd);
