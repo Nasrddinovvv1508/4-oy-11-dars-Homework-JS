@@ -390,4 +390,20 @@
 //     const rearranged = rearrangeArray(arr);
     
 //     console.log(rearranged);
-    
+
+
+
+// UY ISHI - 11-masala
+// let n = 6;
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// function rangeOutSum(arr, K, L) {
+//         let sum = 0;
+//         for (let i = K; i <= L; i++) {
+//                 sum += arr[i];
+//         }
+
+//         return sum;
+// }
+
+// console.log(rangeOutSum(arr, 2, 4));
