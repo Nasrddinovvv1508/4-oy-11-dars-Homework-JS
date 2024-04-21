@@ -202,3 +202,31 @@
 // }
 
 // console.log(`Toq elementlar -${res}, jami ${counter} ta`);`
+
+
+
+// UY ISHI - 5-masala
+// let arr = [4, 5, 7, 8, 6, 9]
+// if (Array.isArray(arr)) {
+//         if (arr.length == 0) {
+//                 console.log(`Error`);
+//                 return;
+//         }
+
+//         let odd = ``;
+//         let even = ``;
+
+//         for (let i = 0; i < arr.length; i++) {
+//                 if (arr[i] % 2 == 1) {
+//                         odd += ` ${arr[i]}`;
+//                 }
+
+//                 if (arr[i] % 2 == 0) {
+//                         even += ` ${arr[i]}`;
+//                 }
+//         }
+
+//         console.log(even, ` `, odd.split('').reverse().join(``));
+// } else {
+//         console.log(`Error`);
+// }
