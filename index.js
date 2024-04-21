@@ -500,3 +500,22 @@
 // }
 
 // console.log(near);
+
+
+
+// UY ISHI - 17-masala 
+// let n = 6;
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// let res = arr[0] + arr[1];
+// let couple;
+
+// for (let i = 1; i < arr.length; i++) {
+//         if ((arr[i] + arr[i+1] > res)) {
+//                 res = (arr[i] + arr[i+1])
+//                 couple = `${arr[i]}, ${arr[i+1]}`
+//         }
+// }
+
+// console.log(res);
+// console.log(couple);
