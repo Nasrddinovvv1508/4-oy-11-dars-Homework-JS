@@ -138,3 +138,26 @@
 // }
 
 // console.log(getLevel2(n));
+
+
+        // UY ISHI - 2-masala
+// let n = 5;
+// let a = 2;
+// let b = 3;
+
+// function predecessorsSum(n, A, B) {
+//      let arr = [A, B]
+//      let sum = 0
+//      for (let i = 1; i < n-1; i++) {
+//         sum = 0
+//         for (let j = 0; j < arr.length; j++) {
+//              sum += arr[j];
+//         }
+
+//         arr.push(sum)
+//      }
+
+//      console.log(arr);
+// }
+
+// predecessorsSum(n, a, b)
