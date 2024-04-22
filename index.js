@@ -593,3 +593,23 @@
 
 // let b = a.map(v => v + k);
 // console.log(b);
+
+
+
+// UY ISHI - 22-masala
+// let n = 6;
+// let arr = [1, 2, 3, 4, 5, 6];
+// let half1 = ``
+// let half2 = ``
+
+// for (let i = 0; i <= (arr.length / 2) - 1; i++) {
+//         half1 += ` ${arr[i]}`;
+// }
+
+// for (let i = arr.length / 2; i < arr.length; i++) {
+//         half2 += ` ${arr[i]}`;
+// }
+
+// let res = `${half2.trim()} ${half1.trim()}`
+
+// console.log(res.split(' '));
