@@ -368,27 +368,27 @@
 // function rearrangeArray(arr) {
 //         const n = arr.length; 
 //         const result = []; 
-    
+
 //         let left = 0;
 //         let right = n - 1; 
-    
+
 //         while (left <= right) {
 //             result.push(arr[left]);
 //             left += 1;
-    
+
 //             if (left <= right) {
 //                 result.push(arr[right]);
 //                 right -= 1;
 //             }
 //         }
-    
+
 //         return result;
 //     }
-    
+
 //     const arr = [1, 2, 3, 4, 5, 6, 7];
-    
+
 //     const rearranged = rearrangeArray(arr);
-    
+
 //     console.log(rearranged);
 
 
@@ -519,3 +519,28 @@
 
 // console.log(res);
 // console.log(couple);
+
+
+
+// UY ISHI - 18-masala
+// let arr = [1, 2, 4, 4, 5, 3];
+// let res = ``
+// let counter = 0
+
+// for (let i = 0; i < arr.length; i++) {
+//         counter = 0
+//         for (let j = 0; j < arr.length; j++) {
+//                 if (arr[i] == arr[j]) {
+//                         counter++;
+//                 }
+//         }
+
+//         if (counter == 2) {
+//                 res += ` ${i}`;
+//         }
+// }
+
+// console.log(res.trim());
+
+
+
