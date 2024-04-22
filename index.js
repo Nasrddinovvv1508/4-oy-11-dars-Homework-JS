@@ -582,5 +582,4 @@
 //         res += ` ${v}`;
 //         counter++;
 // })
-
 // console.log(`${res.trim()}, jami ${counter} ta`);
