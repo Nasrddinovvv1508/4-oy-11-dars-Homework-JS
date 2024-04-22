@@ -544,3 +544,24 @@
 
 
 
+// UY ISHI - 19-masala
+// let n = 6;
+// let arr = [1, 2, 3, 2, 2, 3];
+// let counter = 0;
+// let max = 0;
+// let res = ``;
+
+// for (let i = 0; i < arr.length; i++) {
+//         counter = 0
+//         for (let j = 0; j < arr.length; j++) {
+//                 if (arr[i] == arr[j]) {
+//                         counter++
+//                         res = ` ${arr[i]}`
+//                 }
+//         }
+
+//         if (counter > max) {
+//                 max = counter;
+//         }
+// }
+// console.log(`${res.trim()} jami ${max} marta takrorlanyapti`);
