@@ -693,3 +693,20 @@
 // }
 
 // console.log(deleteElementWithIndex(arr, k));
+
+
+
+
+// UY ISHI - 27-masala
+// let arr = [1, 2, 3, 4, 5, 6]; // [1, 2, 5, 6];
+// let k = 1;
+// let m = 4;
+// let counter = 0;
+
+// for (let i = k + 1; i < m; i++) {
+//         counter++
+// }
+
+// arr.splice(k+1, counter)
+
+// console.log(arr);
