@@ -656,3 +656,40 @@
 // }
 
 // console.log(a);
+
+
+
+// UY ISHI - 25-masala
+// let n = 6;
+// let a = [1, 2, 3, 4, 5, 6] // [2, 3, 4, 5, 6, 1]
+// let newArr = []
+
+// for (let i = 0; i < a.length; i++) {
+//         if (i == 0) {
+//                 newArr[a.length - 1] = a[i]
+//         } else {
+//                 newArr[i - 1] = a[i];
+//         }
+// }
+
+// console.log(newArr);
+
+
+
+// UY ISHI - 26-masala
+// let arr = [1, 2, 3, 4, 5, 6];
+// let k = 4;
+
+// function deleteElementWithIndex(arr, k) {
+//         let newArr = []
+//         for (let i = 0; i < arr.length; i++) {
+//                 if (i == k) {
+//                         continue;
+//                 }
+//                 newArr.push(arr[i])
+//         }
+
+//         return newArr;
+// }
+
+// console.log(deleteElementWithIndex(arr, k));
