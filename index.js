@@ -726,3 +726,21 @@
 // }
 
 // console.log(newArr);
+
+
+
+// UY ISHI - 29-masala
+// let arr = [1, 1, 1, 2, 2, 2, 3, 3, 3];
+
+// function getElementsOneTime(arr) {
+//         let newArr = []
+//         for (let i = 0; i < arr.length; i++) {
+//                 if (!newArr.includes(arr[i])) {
+//                         newArr.push(arr[i])
+//                 }
+//         }
+
+//         return newArr
+// }
+
+// console.log(getElementsOneTime(arr));
