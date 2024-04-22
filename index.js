@@ -630,3 +630,29 @@
 // }
 
 // console.log(newArr);
+
+
+
+// UY ISHI - 24-masala
+// let n = 6;
+// let a = [1, 2, 3, 4, 5, 6]
+// let min = a[0]
+// let max = a[0]
+// let indexMax = 0;
+// let indexMin = 0;
+
+// for (let i = 0; i < a.length; i++) {
+//         if (a[i] > max) {
+//                 max = a[i]
+//                 indexMax = i;
+//         } else if (a[i] < min) {
+//                 min = a[i]
+//                 indexMin = i
+//         }
+// }
+
+// for (let i = indexMin + 1; i <= indexMax - 1; i++) {
+//         a[i] = 0
+// }
+
+// console.log(a);
