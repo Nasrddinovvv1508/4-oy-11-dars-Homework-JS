@@ -710,3 +710,19 @@
 // arr.splice(k+1, counter)
 
 // console.log(arr);
+
+
+
+// UY ISHI - 28-masala
+// let n = 6;
+// let arr = [1, 2, 2, 4, 4, 1] // [1, 2, 4, 1]
+// let newArr = []
+
+// for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] == arr[i+1]) {
+//                 continue;
+//         }
+//         newArr.push(arr[i]);
+// }
+
+// console.log(newArr);
