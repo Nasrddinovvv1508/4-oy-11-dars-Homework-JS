@@ -106,15 +106,14 @@
 // 7-MASALA
 // let arr = [1, 5, 8, 9, 10];
 
-// let newArr = [0];
+// let newArr = [];
 
-// for (let i = 0; i <= arr.length; i++) {
+// for (let i = 0; i < arr.length; i++) {
 //     if (i == arr.length - 1) {
 //         newArr[0] = arr[arr.length - 1]
 //     } else {
 //         newArr[i + 1] = arr[i];
 //     }
-
 // }
 
 // console.log(newArr);
@@ -613,3 +612,21 @@
 // let res = `${half2.trim()} ${half1.trim()}`
 
 // console.log(res.split(' '));
+
+
+
+// UY ISHI - 23-masala
+// let n = 6;
+// let arr = [1, 2, 3, 4, 5, 6];
+// let newArr = []
+
+// for (let i = 0; i < arr.length; i++) {
+//         if (i == 0) {
+//                 newArr.push(arr[arr.length - 1]);
+//         } else if (i == arr.length - 1) {
+//                 break;
+//         }
+//         newArr.push(arr[i]);
+// }
+
+// console.log(newArr);
