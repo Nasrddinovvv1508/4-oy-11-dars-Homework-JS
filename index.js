@@ -583,3 +583,13 @@
 //         counter++;
 // })
 // console.log(`${res.trim()}, jami ${counter} ta`);
+
+
+
+// UY ISHI - 21-masala
+// let n = 6;
+// let a = [1, 2, 3, 4, 5, 6];
+// let k = 1;
+
+// let b = a.map(v => v + k);
+// console.log(b);
