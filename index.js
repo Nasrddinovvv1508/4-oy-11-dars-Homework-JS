@@ -565,3 +565,22 @@
 //         }
 // }
 // console.log(`${res.trim()} jami ${max} marta takrorlanyapti`);
+
+
+
+// UY ISHI - 20-masala
+// let n = 6;
+// let a = [1, 2, 3, 4, 5, 6];
+
+// let b = a.filter((v) => {
+//         return v % 2 == 0;
+// })
+
+// let counter = 0;
+// let res = ''
+// b.forEach((v) => {
+//         res += ` ${v}`;
+//         counter++;
+// })
+
+// console.log(`${res.trim()}, jami ${counter} ta`);
